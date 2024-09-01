@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    border: 5px solid;
+    width: clamp(300px,30vw,500px);
+    height: 250px;
+    overflow: hidden;
+}
+
+#karakter{
+    background-image: url("satrya2.png");
+    background-size: 70px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 80px;
+    position: relative;
+    top: 68%;
+    left: 10px;
+    object-fit: cover;
+   
+}
+
+#musuh{
+    background-image: url("satrya1.png");
+    background-size: 30px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 56%;
+    left: 100%;
+    object-fit: cover;
+    
+}
+
+#jump{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
